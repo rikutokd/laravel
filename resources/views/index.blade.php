@@ -3,7 +3,7 @@
 @section('title', '入力フォーム')
 
 @section('content')
-<h2>ユーザー情報</h2>
+<h3>ユーザー情報</h3>
 <div>
     <form>
         <div class="table">
@@ -37,6 +37,8 @@
                     <input type="radio" name="sex" value='2'>女
                 </label>
             </div>
+            <br>
+            <input type="submit" value="送信">
         </div>
     </form>
 </div>
