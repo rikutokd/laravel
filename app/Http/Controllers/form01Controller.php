@@ -8,7 +8,7 @@ class form01Controller extends Controller
 {
     public function init(){
 
-        //index.blade表示
+        //form01.blade表示
         return view('form01');
     }
 }

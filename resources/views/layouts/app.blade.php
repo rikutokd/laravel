@@ -2,14 +2,20 @@
 <html>
     <head>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        <title>@yield('title')</title>
+    <script src="{{ asset('/js/test.js') }}"></script>
+    <title>@yield('title')</title>
     </head>
     <body>
-        @section('sidebar')
-        @show
+        <div class="header">
+            @yield('header')
+        </div>
 
         <div class="container">
             @yield('content')
+        </div>
+
+        <div class="footer">
+            @yield('footer')
         </div>
     </body>
 </html>

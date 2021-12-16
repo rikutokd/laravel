@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
-
-Route::get('index', 'indexController@init');
 
 Route::get('form01', 'form01Controller@init');
