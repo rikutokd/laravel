@@ -15,7 +15,7 @@
 </div>
 <div>
     <p>
-        <label>別ウィンドウの表示検証</label>
+        <label>新規ウィンドウの表示</label>
         <br>
         <input type="button" value="googleを表示" onclick="openWindow()">
     </p>
