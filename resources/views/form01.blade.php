@@ -15,7 +15,7 @@
 <h3>ユーザー情報</h3>
 <div>
     <form>
-        {{ csrf_field() }}
+        @csrf
         <div class="table">
             <div class="table_line">
                 <label>
