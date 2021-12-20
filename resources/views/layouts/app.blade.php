@@ -2,7 +2,7 @@
 <html>
     <head>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <script src="{{ asset('/js/test.js') }}"></script>
+    <script src="{{ asset('/js/openWindow.js') }}"></script>
     <title>@yield('title')</title>
     </head>
     <body>
